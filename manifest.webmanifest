@@ -1,0 +1,16 @@
+{
+  "name": "Orbillion: Daily Word Climb",
+  "short_name": "Orbillion",
+  "description": "Name rare things, climb higher. A daily word game with a pigeon in a hot air balloon.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#1C1527",
+  "theme_color": "#1C1527",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
