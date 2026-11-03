@@ -1,6 +1,6 @@
 // Orbillion offline cache. The page itself is network first (so a new build
 // shows up on the next visit), everything else is cache first, filled as it loads.
-const CACHE = 'orbillion-v202611022130';
+const CACHE = 'orbillion-v202611031558';
 self.addEventListener('install', (e) => {
   e.waitUntil(caches.open(CACHE).then((c) => c.addAll(['./', './manifest.webmanifest'])).then(() => self.skipWaiting()));
 });
